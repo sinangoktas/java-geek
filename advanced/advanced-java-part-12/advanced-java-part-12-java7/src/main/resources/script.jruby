@@ -1,0 +1,6 @@
+$books.each do |it| 
+    java.lang.System.out.println( "Book '" + it.title + "' is written by " + it.author )
+end
+
+java.lang.System.out.println( "Executed by " + $engine.getClass().simpleName )
+java.lang.System.out.println( "Free memory (bytes): " + java.lang.Runtime.getRuntime().freeMemory().to_s )

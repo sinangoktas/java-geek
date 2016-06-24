@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.7.0_67
+Built-By: reta
+Premain-Class: com.javacodegeeks.advanced.agent.SimpleAgent
+Created-By: Maven Integration for Eclipse
+
