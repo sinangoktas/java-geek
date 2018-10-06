@@ -5,5 +5,8 @@ public class OfficeClone {
         final Person person = new Person( "John", "Smith", "john.smith@domain.com" );
         final Office office = new Office( person );
         System.out.println( office.clone().toString() );
+        // why is this false
+        System.out.println(office.equals(office.clone()));
+
     }
 }
