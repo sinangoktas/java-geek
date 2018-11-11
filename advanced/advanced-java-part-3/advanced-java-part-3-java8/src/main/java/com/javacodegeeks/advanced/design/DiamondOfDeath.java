@@ -19,6 +19,10 @@ public class DiamondOfDeath {
     }
     
     // E is not compilable unless it overrides perfromAction() as well
-    interface E extends B, C {        
+    interface E extends B, C {
+        @Override
+        default void performAction() {
+
+        }
     }
 }
